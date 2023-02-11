@@ -26,6 +26,10 @@ body{
   height:730px;
  }
 
+.textdetails h1{
+  font-weight: 700;
+}
+
 
 .textdetails p{
   color: hsl(0, 0%, 100%, 0.75);
@@ -59,7 +63,7 @@ body{
   background-image: url("images/image-header-mobile.jpg");
 } 
 
-
+/*media query*/
 @media screen and (width > 375px){
  html,body{
     height:100%;
